@@ -1,3 +1,9 @@
 $body-color: #aaa;
-
+.col{
+    padding: 0 10px;
+}
+.fw{
+    width: 100%;
+}
+$btnColor:#f2a33a;
 @import '~bootstrap/scss/bootstrap'

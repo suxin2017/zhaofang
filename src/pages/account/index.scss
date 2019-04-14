@@ -1,0 +1,54 @@
+
+
+.login {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    background: url(./img/login_back.png);
+    height:75vh;
+    width:100%;
+}
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background: #fff;
+    border-radius: 15px;
+    .submit{
+      width: 120px;
+      background: #f2a33a;
+      border-color: #f2a33a;
+    }
+    .title{
+      font-size: 28px;
+      margin: 10px 0 ;
+      &::before{
+        content: '';
+        display: block;
+        height: 1px;
+        width: 40px;
+        border-top:1px solid #aaa; 
+        position: relative;
+        left: 20px;
+        bottom:-22px;
+      }
+      &::after{
+        content: '';
+        display: block;
+        height: 1px;
+        width: 40px;
+        border-top:1px solid #aaa; 
+        position: relative;
+        right: -230px;
+        top:-22px;
+      }
+
+    }
+  
+  }
