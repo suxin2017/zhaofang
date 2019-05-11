@@ -1,4 +1,16 @@
 header{
     padding: .8rem;
     border-bottom: 1px #eee solid;
+    a{
+        color: #888;
+        &:hover{
+            color: #fe9800;
+        }
+        
+    }
+ 
+    .active{
+        font-size: 0.9rem;   
+        color: #fe9800;
+    }
 }
